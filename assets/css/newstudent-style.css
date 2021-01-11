@@ -1,0 +1,147 @@
+
+.main{
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+}
+.img-school-logo{
+	width: 85px;
+	height: 85px;
+}
+.btn-home-login{
+	color: #ef7215;
+	text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .btn-home-login {
+	width: 100%;
+	margin-top: 15px;
+  }
+}
+.lbl-school-name{
+	font-size: 25px;
+	white-space: nowrap;
+}
+.navbar{
+	padding-top: 20px;
+	padding: 20px 10px 0px 10px;
+}
+.home-main-body{
+	text-align: center;
+	margin-top: 10px;
+}
+.lbl-home-sub{
+	font-size: 23px;
+	padding-bottom: 20px;
+}
+.lbl-home-main{
+	font-size: 65px;
+}
+
+.ref-btn{
+  transition: transform 2s;
+}
+
+.ref-btn:hover{
+   transform: rotate(-720deg);
+}
+.nav-link-custom {
+  text-decoration: none;
+}
+.nav-link-custom:active {
+  text-decoration: none;
+}
+.add-button {
+	float: right;
+}
+.add-button-label{
+	display: inline;
+}
+.active-row{
+	background-color: red;
+}
+.tRow:hover{
+	cursor: pointer;
+	background-color: #d3d3d3;
+}
+.buttonDelete{
+	margin-left: 20px;
+}
+    .modal-myheading {
+       text-decoration: none; 
+       position: relative; 
+       font-family: 'Raleway', sans-serif;
+       font-size: 25px;
+     }   
+
+    .modal-myheading:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        bottom: -4px; 
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 75%;
+        background: green;
+
+    }
+
+    .modal-myheading2 {
+       text-decoration: none; 
+       position: relative; 
+       font-family: 'Raleway', sans-serif;
+       font-size: 25px;
+     }   
+
+    .modal-myheading2:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        bottom: -4px; 
+        margin: 0 auto;
+        margin-bottom: 15px;
+        left: 0;
+        right: 0;
+        width: 75%;
+        background: green;
+
+    }
+
+.required-field:after{
+	font-size: 20px;
+	
+	content: ' *';
+	color: red;
+}  
+.unrequired-field{
+	margin-top: 5.5px;
+}
+.unrequired-field:after{
+	content: &nbsp;
+	
+}
+.genderform{
+	margin-bottom: 15px;
+	margin-top: 5px;
+}        
+.textar{
+	text-align: right;
+}
+
+.home-main-body{
+  animation-duration: 3s;
+  animation-name: slideup;
+}
+
+@-webkit-keyframes slideup {
+  from {
+    transform: translate(1px, 30px);
+    opacity: 0%;
+    width: 300%; 
+  }
+
+  to {
+    opacity: 100%;
+    width: 100%;
+  }
+}

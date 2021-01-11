@@ -1,0 +1,42 @@
+    .glow {
+      font-size: 30px;
+      color: #FF0000;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #FF0000, 0 0 10px #FF0000, 0 0 20px #FF0000, 0 0 30px #FF0000, 0 0 40px #FF0000;
+  }
+  
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #FF0000, 0 0 50px #FF0000, 0 0 10px #FF0000, 0 0 20px #FF0000, 0 0 30px #FF0000, 0 0 40px #FF0000;
+  }
+}
+footer {
+  color: #808080;
+}
+
+footer .copyright {
+  background: white;
+  font-size: 16px;
+}
+
+footer .copyright span {
+  color: #0894d1;
+}
+
+.fixedbtmRight {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+
+.recapCon{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}

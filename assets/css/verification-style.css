@@ -1,0 +1,142 @@
+#inlineFormInputName2{
+	text-indent: 12px;
+	font-weight: bold; 
+	font size: 30px;
+	color: #025E13;
+}
+.form-otp{
+	letter-spacing: 5px;
+	text-indent: 2px;
+	text-transform: uppercase;
+}
+.footerInfo:before{
+	content: ' \26A0 ';"
+}
+.footerInfo{
+	position:absolute;
+	font-size: 15px;
+}
+
+.verification-body{
+	background-color: #eee3;
+}
+.swal-sm{
+	width:350px !important;
+
+}
+.mainCon{
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+	margin-top: 100px;
+	padding: 12px;
+  	border-style: solid;
+  	border-color: #6666;
+  	border-width: 4px 10px 6px 15px;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*new*/
+
+.otpform{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: Arial, sans-serif; 
+  font-size: 15px; 
+  color:#2FB47a; 
+  letter-spacing:1.2px;
+}
+.body-style{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+div.hidden {
+    display: none;
+
+}
+.pace .pace-activity {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  background: #ff8000;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transform: translateX(100%) translateY(-100%) rotate(45deg);
+  transform: translateX(100%) translateY(-100%) rotate(45deg);
+  pointer-events: none;
+}
+
+.pace.pace-active .pace-activity {
+  -webkit-transform: translateX(50%) translateY(-50%) rotate(45deg);
+  transform: translateX(50%) translateY(-50%) rotate(45deg);
+}
+
+.pace .pace-activity::before,
+.pace .pace-activity::after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    display: block;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    content: '';
+}
+
+.pace .pace-activity::before {
+    margin-left: -40px;
+    width: 80px;
+    height: 80px;
+    border-right-color: rgba(0, 0, 0, .2);
+    border-left-color: rgba(0, 0, 0, .2);
+    -webkit-animation: pace-theme-corner-indicator-spin 3s linear infinite;
+    animation: pace-theme-corner-indicator-spin 3s linear infinite;
+}
+
+.pace .pace-activity::after {
+    bottom: 50px;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    border-top-color: rgba(0, 0, 0, .2);
+    border-bottom-color: rgba(0, 0, 0, .2);
+    -webkit-animation: pace-theme-corner-indicator-spin 1s linear infinite;
+    animation: pace-theme-corner-indicator-spin 1s linear infinite;
+}
+
+@-webkit-keyframes pace-theme-corner-indicator-spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); }
+}
+@keyframes pace-theme-corner-indicator-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
