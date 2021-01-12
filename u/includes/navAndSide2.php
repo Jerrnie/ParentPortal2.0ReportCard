@@ -278,29 +278,6 @@ require './/../include/getschoolyear.php';
         </li>
 
 
-        <li class="nav-item has-treeview <?php treeOpen($page, "disable"); ?>">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fa fa-envelope" aria-hidden="true"></i>
-            <p>
-              Message
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="composeUser.php" class="nav-link <?php isActive($page, "composeUser"); ?>">
-                <i class="nav-icon fa fa-pencil-alt"></i>
-                <p>Compose Message</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="inboxUser.php" class="nav-link <?php isActive($page, "inboxUser"); ?>">
-                <i class="nav-icon fa fa-envelope-open"></i>
-                <p>Inbox</p>
-              </a>
-            </li>
-          </ul>
-        </li>
 
 
 

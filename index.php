@@ -8,6 +8,7 @@
 
   <?php
   session_start();
+  
   ob_start();
   $schoolYearID;
 
@@ -25,6 +26,7 @@
   require 'include/httpsRouter.php';
 
   #Get all Security features
+  
   $sql1 = "select * from tbl_PasswordSettings";
   $result = mysqli_query($conn, $sql1);
   $pass_row = mysqli_fetch_assoc($result);

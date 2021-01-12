@@ -244,9 +244,16 @@ elseif ($levelCheck=='E'){
                       echo '       <a class="btn btn-secondary iconsize btn-sm " title="View Report Card"  href="rcViewer.inc.php?page=' . $row[1] . '&name='.$name.'">';
                       echo '           <i class="fas fa-id-card">';
                       echo '           </i>';
-                      echo '           <span></span>';
+                      echo '           <span>Report Card</span>';
                       echo '       </a>';
                   }
+                  // else{
+                  //     echo '       <a class="btn btn-secondary iconsize btn-sm " title="Report Card not available"  href="rcViewer.inc.php?page=' . $row[1] . '&name='.$name.'">';
+                  //     echo '           <i class="fas fa-id-card">';
+                  //     echo '           </i>';
+                  //     echo '           <span></span>';
+                  //     echo '       </a>';
+                  // }
                   if ($haveMatch1) {
                       echo '       <a class="btn btn-warning iconsize btn-sm " title="View Statement of Account" href="soaViewer.inc.php?page=' . $row[1] . '&name='.$name.'">';
                       echo '           <i class="fas fa-file-invoice">';

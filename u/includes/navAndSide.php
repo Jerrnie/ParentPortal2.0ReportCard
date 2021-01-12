@@ -306,53 +306,8 @@ require './/../include/getschoolyear.php';
 
           </ul>
         </li>
-        <li class="nav-item has-treeview <?php treeOpen($page, "disable"); ?>">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fa fa-bullhorn" aria-hidden="true"></i>
-            <p>
-              Announcement
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="publishA.php" class="nav-link <?php isActive($page, "AddAnnouncement"); ?>">
-                <i class="nav-icon fa fa-pencil-alt"></i>
-                <p>Add Announcement</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="viewAllAnnouncement.php" class="nav-link <?php isActive($page, "viewallAnnouncement"); ?>">
-                <i class="nav-icon fa fa-bullseye"></i>
-                <p>View Announcement</p>
-              </a>
-            </li>
-          </ul>
-        </li>
 
-        <li class="nav-item has-treeview <?php treeOpen($page, "disable"); ?>">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fa fa-envelope" aria-hidden="true"></i>
-            <p>
-              Message
-              <i class="right fas fa-angle-left"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="compose.php" class="nav-link <?php isActive($page, "compose"); ?>">
-                <i class="nav-icon fa fa-pencil-alt"></i>
-                <p>Compose Message</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="inbox.php" class="nav-link <?php isActive($page, "inbox"); ?>">
-                <i class="nav-icon fa fa-envelope-open"></i>
-                <p>Inbox</p>
-              </a>
-            </li>
-          </ul>
-        </li>
+
 
 
 
